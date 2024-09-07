@@ -1,0 +1,141 @@
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#pint-image {
+    border-radius: 35%;
+    border: 10px solid yellow;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#main-heading {
+font-size: xx-small;
+}
+#secondary-heading {
+font-size: medium;
+color: darkorange;
+}
+#unordered-list {
+border: 10px solid yellow;
+font-weight: bold;
+background-color: rgba(12, 10, 1, 0.997); 
+border-radius: 5%;
+padding: 5px;
+margin: 30px;
+margin-bottom: 35px;
+}
+#ordered-list {
+    border: 10px solid yellow;
+    font-weight: bolder;
+    background-color: rgba(12, 10, 1, 0.997); 
+    border-radius: 3%;
+    padding: 5px;
+    margin: 30px;
+}
+#ordered {
+    font-size: small;
+    font-weight: normal;
+    font-style: oblique;
+    color: rgb(161, 24, 24);
+    padding-left: 25px;
+    padding-right: 90px;
+    text-align: left;
+    padding-bottom: -30px;
+}
+.unlist-item {
+    margin-bottom: 30px;
+    text-align: left;
+}
+.list-order {
+    margin-bottom: 15px;
+    text-align: left;
+    padding-left: 15px;
+}
+.paragraph {
+    font-style: oblique;
+}
+#title {
+    font-weight: bolder;
+    font-size: xx-large;
+    color: rgb(230, 173, 117);
+}
+.link {
+    
+    color:darkorange;
+    font-weight: bold;
+    font-size: medium;
+
+}
+.link:hover {
+    color: rgb(230, 173, 117);
+   font-weight: bolder;
+}
+.paragraph1 {
+    font-style: oblique;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 7px;
+}
+.bold {
+    color: rgb(161, 24, 24);
+}
+.paragraph2 {
+    font-style: oblique;
+    font-size: 12px;
+    text-align: center;
+    padding-left: 7px;
+}
+.pint-images {
+    border-radius: 35%;
+    border: 10px solid yellow;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 45px;
+  max-height: 400px;
+max-width: 350px;
+width: 400px;
+height: 350px;
+}
+.pint-images1 {
+    border-radius: 35%;
+    border: 10px solid yellow;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 45px;
+  max-height: 400px;
+max-width: 350px;
+width: 400px;
+height: 350px;
+}
+#second-pints {
+   display: grid;
+   grid-gap: 10px;
+   align-items: center;
+   justify-items: center;
+   margin: auto;
+}
+#grid-pint1 {
+    grid-columns:1/1;
+    grid-row: 1/1;
+}
+#grid-pint2 {
+    grid-columns:2/2;
+    grid-row: 2/2;
+}
+#grid-pint3 {
+    grid-columns:3/3;
+    grid-row: 1/1;
+}
+#grid-pint4 {
+    grid-columns:4/4;
+    grid-row: 2/2;
+}
